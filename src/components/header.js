@@ -14,9 +14,21 @@ const Header = ({ siteTitle }) => (
         margin: `0 auto`,
         maxWidth: 960,
         padding: `1.45rem 1.0875rem`,
+        display: "flex",
       }}
     >
-      <h1 style={{ margin: 0 }}>
+      <h2 style={{ margin: 0, marginRight: 20 }}>
+        <Link
+          to="/"
+          style={{
+            color: `black`,
+            textDecoration: `none`,
+          }}
+        >
+          {siteTitle}
+        </Link>
+      </h2>
+      <h2 style={{ margin: 0, marginRight: 10 }}>
         <Link
           to="/"
           style={{
@@ -24,9 +36,42 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-          {siteTitle}
+          Home
         </Link>
-      </h1>
+      </h2>
+      <h2 style={{ margin: 0, marginRight: 10 }}>
+        <Link
+          to="/blog"
+          style={{
+            color: `white`,
+            textDecoration: `none`,
+          }}
+        >
+          Blog
+        </Link>
+      </h2>
+      <h2 style={{ margin: 0, marginRight: 10 }}>
+        <Link
+          to="/projects"
+          style={{
+            color: `white`,
+            textDecoration: `none`,
+          }}
+        >
+          Projects
+        </Link>
+      </h2>
+      <h2 style={{ margin: 0, marginRight: 10 }}>
+        <Link
+          to="/about"
+          style={{
+            color: `white`,
+            textDecoration: `none`,
+          }}
+        >
+          About
+        </Link>
+      </h2>
     </div>
   </header>
 )

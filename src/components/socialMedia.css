@@ -1,0 +1,31 @@
+.socialContainer {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 1.45rem 1.0875rem;
+}
+
+.socialContainer a.social {
+  margin-right: 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+.socialContainer a.social:hover {
+  transform: translateY(-2px);
+}
+
+.socialContainer a.youtube {
+  color: #eb3223;
+}
+
+.socialContainer a.facebook {
+  color: #4968ad;
+}
+
+.socialContainer a.twitter {
+  color: #49a1eb;
+}
+
+.socialContainer a.instagram {
+  color: #0e76a8;
+}
