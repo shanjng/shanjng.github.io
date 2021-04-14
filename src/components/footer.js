@@ -1,7 +1,7 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
-import SocialMedia from "../components/SocialMedia"
+import SocialMedia from "../components/socialMedia"
 
 const Footer = ({ siteTitle }) => (
   <footer style={{ background: "#eee" }}>
