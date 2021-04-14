@@ -2,8 +2,10 @@ language: node_js
 before_script:
   - npm install -g gatsby-cli
 node_js:
-  - "14"
-script: git config --global user.email $GH_EMAIL 2> /dev/null &&
-  git config --global user.name $GH_USERNAME 2> /dev/null &&
-  git remote set-url origin "https://${GH_USERNAME}:${GH_TOKEN}@github.com/shanjng/shanjng.github.io.git" 2> /dev/null &&
-  npm install && npm run deploy 2> /dev/null
+  - "10"
+deploy:
+  provider: script
+  script: npm install && npm run deploy
+  skip_cleanup: true
+  on:
+    branch: development
