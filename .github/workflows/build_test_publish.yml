@@ -17,6 +17,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install requests
+          pip install selenium
       - name: Prepare Chromedriver
         uses: nanasess/setup-chromedriver@master
       - name: Launch browser
@@ -28,6 +29,7 @@ jobs:
       - name: Run tests
         run: python test.py
   build:
+    needs: test
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
