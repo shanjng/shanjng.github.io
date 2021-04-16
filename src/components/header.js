@@ -17,7 +17,7 @@ const Header = ({ siteTitle }) => (
         display: "flex",
       }}
     >
-      <h2 style={{ margin: 0, marginRight: 20 }}>
+      <h2 style={{ margin: 0, marginRight: 60 }}>
         <Link
           to="/"
           style={{
@@ -28,7 +28,7 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h2>
-      <h2 style={{ margin: 0, marginRight: 10 }}>
+      <h2 style={{ margin: 0, marginRight: 30 }}>
         <Link
           to="/"
           style={{
@@ -39,7 +39,7 @@ const Header = ({ siteTitle }) => (
           Home
         </Link>
       </h2>
-      <h2 style={{ margin: 0, marginRight: 10 }}>
+      <h2 style={{ margin: 0, marginRight: 30 }}>
         <Link
           to="/blog"
           style={{
@@ -50,7 +50,7 @@ const Header = ({ siteTitle }) => (
           Blog
         </Link>
       </h2>
-      <h2 style={{ margin: 0, marginRight: 10 }}>
+      <h2 style={{ margin: 0, marginRight: 30 }}>
         <Link
           to="/projects"
           style={{
@@ -61,7 +61,7 @@ const Header = ({ siteTitle }) => (
           Projects
         </Link>
       </h2>
-      <h2 style={{ margin: 0, marginRight: 10 }}>
+      <h2 style={{ margin: 0, marginRight: 30 }}>
         <Link
           to="/about"
           style={{
