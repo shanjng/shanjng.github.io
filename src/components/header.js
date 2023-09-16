@@ -63,6 +63,17 @@ const Header = ({ siteTitle }) => (
       </h2>
       <h2 style={{ margin: 0, marginRight: 30 }}>
         <Link
+          to="/concerts"
+          style={{
+            color: `white`,
+            textDecoration: `none`,
+          }}
+        >
+          Concerts I'm Going To
+        </Link>
+      </h2>
+      <h2 style={{ margin: 0, marginRight: 30 }}>
+        <Link
           to="/about"
           style={{
             color: `white`,
