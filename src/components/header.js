@@ -69,7 +69,7 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-          Concerts I'm Going To
+          Concerts
         </Link>
       </h2>
       <h2 style={{ margin: 0, marginRight: 30 }}>
