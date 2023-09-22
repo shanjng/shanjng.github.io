@@ -5,7 +5,7 @@ import { Link } from "gatsby"
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `rebeccapurple`,
+      background: `#386994`,
       marginBottom: `1.45rem`,
     }}
   >
@@ -21,7 +21,7 @@ const Header = ({ siteTitle }) => (
         <Link
           to="/"
           style={{
-            color: `black`,
+            color: '#bdd9cd', // palette from http://paperheartdesign.com/blog/color-palette-peaceful-palettes
             textDecoration: `none`,
           }}
         >
@@ -32,55 +32,44 @@ const Header = ({ siteTitle }) => (
         <Link
           to="/"
           style={{
-            color: `white`,
+            color: '#8eaebb',
             textDecoration: `none`,
           }}
         >
-          Home
+          home
         </Link>
       </h2>
       <h2 style={{ margin: 0, marginRight: 30 }}>
         <Link
           to="/blog"
           style={{
-            color: `white`,
+            color: '#8eaebb',
             textDecoration: `none`,
           }}
         >
-          Blog
+          blog
         </Link>
       </h2>
       <h2 style={{ margin: 0, marginRight: 30 }}>
         <Link
           to="/projects"
           style={{
-            color: `white`,
+            color: '#8eaebb',
             textDecoration: `none`,
           }}
         >
-          Projects
+          projects
         </Link>
       </h2>
       <h2 style={{ margin: 0, marginRight: 30 }}>
         <Link
           to="/concerts"
           style={{
-            color: `white`,
+            color: '#8eaebb',
             textDecoration: `none`,
           }}
         >
-          Concerts
-        </Link>
-      </h2>
-      <h2 style={{ margin: 0, marginRight: 30 }}>
-        <Link
-          to="/about"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          About
+          concerts
         </Link>
       </h2>
     </div>

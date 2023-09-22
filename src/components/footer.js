@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 import SocialMedia from "../components/socialMedia"
 
 const Footer = ({ siteTitle }) => (
-  <footer style={{ background: "#eee" }}>
+  <footer style={{ background: "#386994" }}>
     <SocialMedia />
   </footer>
 )

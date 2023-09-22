@@ -14,18 +14,10 @@
   transform: translateY(-2px);
 }
 
-.socialContainer a.youtube {
-  color: #eb3223;
+.socialContainer a.spotify {
+  color: #1DB954;
 }
 
-.socialContainer a.facebook {
-  color: #4968ad;
-}
-
-.socialContainer a.twitter {
-  color: #49a1eb;
-}
-
-.socialContainer a.instagram {
-  color: #0e76a8;
+.socialContainer a.linkedin {
+  color: #0077b5;
 }
